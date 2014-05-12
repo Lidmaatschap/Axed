@@ -27,7 +27,7 @@ namespace Axed
             {
                 List<String> SSO = new List<string>();
 
-                foreach (String line in File.ReadAllLines("bot-log.txt"))
+                foreach (String line in File.ReadAllLines("Credentials: <username>,<password>"))
                 {
                     if (!line.StartsWith("Credentials"))
                     {
